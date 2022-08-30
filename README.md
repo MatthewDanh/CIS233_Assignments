@@ -17,6 +17,8 @@ https://github.com/MatthewDanh/CIS233_Assignments
 - https://www.w3.org/WAI/WCAG22/Techniques/#techniques
 - https://www.w3schools.com/css/css_rwd_viewport.asp#:~:text=The%20viewport%20is%20the%20user%27s,design%20and%20a%20fixed%20size.
 - https://web.dev/learn/css/
+- Old phone background (background-image)
+- https://fonts.google.com/specimen/Roboto
 
 
 ### Part 2 - An original page
@@ -40,7 +42,12 @@ The page must include the following elements:
 - Styles should include use of elements and ids. Classes are optional.
 
 
-Troubleshoot the site. Try to figure out issues on your own using sources such as https://www.w3schools.com (Links to an external site.), https://developer.mozilla.org/ (Links to an external site.) or https://stackoverflow.com/ (Links to an external site.) . Part of the job of a web designer/developer is troubleshooting. Reach out to your instructor or get help from the Computer Commons as a last resort.
+Troubleshoot the site. Try to figure out issues on your own using sources such as 
+- https://www.w3schools.com (Links to an external site.), 
+- https://developer.mozilla.org/ (Links to an external site.) or 
+- https://stackoverflow.com/ (Links to an external site.) . 
+- [Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
+Part of the job of a web designer/developer is troubleshooting. Reach out to your instructor or get help from the Computer Commons as a last resort.
 Zip your site folder and submit
  
 
@@ -49,8 +56,4 @@ Files to Submit
 - hulk.zip
 - zipped original page file
 
-#### I built this with Glitch! Here are my personal comments
 
-[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
-
--I forgot how to use viewports and had to look it up. 

@@ -2,3 +2,148 @@
 URL to GitHub of blank project showing I started from 0 and coded by hand: 
 https://60526b12-6c51-43d4-81e4-1210ae715c83@api.glitch.com/git/rain-empty-principle 
 ***/
+/****Font and Text styleing*****/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+--font-family: 'Comfortaa', cursive;
+--font-family: 'Roboto', sans-serif;
+p{
+  font-size:1rem;
+  font-family: 'Roboto', sans-serif;
+  margin:auto;
+}
+q{
+  font-size:.5rem;
+ margin:auto;
+  width:60%;
+  display:flex;
+  font-family: 'Roboto', sans-serif;
+  
+}
+h1{
+  font-family: 'Comfortaa', cursive;
+  font-size:3rem;
+  max-width:10ch;
+    text-align:center;
+  color:white;
+  margin:auto;
+
+}
+
+h2,
+h3,
+h4{
+  font-family: 'Comfortaa', cursive;
+  font-size:2rem;
+  max-width:25ch;
+    text-align:center;
+  color:white;
+}
+a{
+  font-size:1.5rem;
+  text-decoration:none;
+  color:silver;
+  font-style:bold;
+}
+/******Layout********/
+body{
+  max-width:100%;
+  background-image:url("https://cdn.glitch.global/fcea906e-4aa8-41c8-9f7c-4134abd36848/9.jpg?v=1661822970930");
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  
+}
+header{
+  display:flex;
+}
+main{
+    display: flex;
+  flex-flow: row wrap;
+}
+article{
+  width:60%;
+}
+aside{
+  width:30%;
+}
+footer
+/*********Structural Elements************/
+nav{
+  background:rgb(100,100,100,.2)
+}
+ul{
+  padding:0px;
+  margin:0px;
+  width:100%;
+}
+li{
+  list-style:none;
+  padding:.7em;
+  text-align:center;
+}
+div{
+  background:rgb(255,255,255,.5);
+    border-radius:25px;
+  
+  margin:1.5em;
+  padding:1.5em;
+  
+}
+img{
+  display:flex;
+  width:100%;
+   border-radius:25px;
+}
+/********Selectors and Classes ***********/
+#wrapper{
+  background:rgb(75,0,130,0.8);
+  margin:auto;
+  display:block;
+  width:100%;
+  box-shadow:inset 10px 10px 25px black;
+}
+
+#unicorn{
+  max-width:400px;
+  border:1px solid black;
+}
+#unicornPhoto{
+  max-width:350px;
+  padding:1em;
+  display:flex;
+    border-radius:25px;
+  border:3px solid indigo;
+  box-shadow:inset 8px 8px 15px cyan,8px 8px 15px magenta;
+}
+#cyanotype{
+width:70%;
+  margin:auto;
+  padding:2.5em;
+    border-radius:25px;
+    border:3px solid indigo;
+ box-shadow:inset 8px 8px 15px cyan,8px 8px 15px magenta;
+  display:flex;
+  
+}
+#artCamp{
+   width:70%;
+    margin:auto;
+    padding:1.5em;
+    border-radius:25px;
+    border:3px inset indigo;
+  box-shadow:inset 8px 8px 15px cyan,8px 8px 15px magenta;
+}
+#HAlogo{
+  width:70%;
+    margin:auto;
+    padding:.5em;
+  border-radius:25px;
+    border:3px solid indigo;
+  box-shadow:inset 8px 8px 15px cyan,8px 8px 15px magenta;
+}
+q.caption{
+  max-width:70%;
+  
+}
