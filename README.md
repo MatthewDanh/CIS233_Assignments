@@ -1,6 +1,6 @@
 # Hello Website (HTML CSS REFRESHER ASSIGNMENT)
 
-This is a basic static HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen 🪄 immediately in the preview window. You can upload assets like images or audio in `assets` to the left. The rest is up to you and your imagination.
+This is a basic static HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen 🪄 immediately in the preview window and saved to GitHub. Uploaded images and sound to portion of IDE`assets` 
 
 ## What's in this project?
 
@@ -9,6 +9,15 @@ This is a basic static HTML starter project you can build on however you like. N
 ← `index.html`: The main HTML page for your site.
 
 ← `style.css`: CSS files add styling rules.
+
+**Original Commit:**
+https://github.com/MatthewDanh/CIS233_Assignments
+
+**Works Cited/Reference**
+- https://www.w3.org/WAI/WCAG22/Techniques/#techniques
+- https://www.w3schools.com/css/css_rwd_viewport.asp#:~:text=The%20viewport%20is%20the%20user%27s,design%20and%20a%20fixed%20size.
+- https://web.dev/learn/css/
+
 
 ### Part 2 - An original page
 
@@ -40,9 +49,8 @@ Files to Submit
 - hulk.zip
 - zipped original page file
 
-## You built this with Glitch!
+#### I built this with Glitch! Here are my personal comments
 
 [Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
 
-- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
-- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
+-I forgot how to use viewports and had to look it up. 
