@@ -44,6 +44,7 @@ a{
   text-decoration:none;
   color:silver;
   font-style:bold;
+
 }
 /******Layout********/
 body{
@@ -67,21 +68,55 @@ article{
 }
 aside{
   width:30%;
+  display:block;
+  
 }
-footer
+aside ul{
+  display:block;
+ margin:1em;
+  border:3px solid indigo;
+  border-radius:25px;
+   
+}
+aside ul li{
+  background:magenta;
+  border:3px solid indigo;
+
+}
+aside ul li a{
+  color:indigo;
+  font-size:.5em;
+}
+aside ul li a:hover{
+  color:white;
+  text-decoration:underline;
+}
+footer{
+
+  
+}
 /*********Structural Elements************/
 nav{
-  background:rgb(100,100,100,.2)
+  background:rgb(100,100,100,.2);
+  display:flex;
 }
 ul{
   padding:0px;
   margin:0px;
   width:100%;
+display:flex;
 }
 li{
   list-style:none;
   padding:.7em;
+  
   text-align:center;
+  color:silver;
+}
+li a:hover{
+  color:magenta;
+
+  text-decoration:underline;
 }
 div{
   background:rgb(255,255,255,.5);
@@ -146,4 +181,9 @@ width:70%;
 q.caption{
   max-width:70%;
   
+}
+#footerNav{
+    background:rgb(70,0,130,.5);
+  color:silver;
+  box-shadow:inset 5px 5px 40px silver;
 }
