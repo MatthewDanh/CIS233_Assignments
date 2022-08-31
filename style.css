@@ -1,8 +1,14 @@
 /*** 
-URL to GitHub of blank project showing I started from 0 and coded by hand: 
-https://github.com/MatthewDanh/CIS233_Assignments
+Matthew Nichols
+HTML CSS REFRESHER
+08/29/22
+Professor Nichols
+This file is available on GitHub
+@ https://github.com/MatthewDanh/CIS233_Assignments
 ***/
+
 /****Font and Text styleing*****/
+
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 --font-family: "Comfortaa", cursive;
@@ -44,15 +50,21 @@ h4 {
 a {
   font-size: 2rem;
   text-decoration: none;
-  color: indigo;
+  color: gold;
   font-style: bold;
-  margin:auto;
-  display:flex;
+  margin: auto;
+  display: flex;
 }
+
+a:hover {
+  transform: scale(1.4);
+  transition: transform 150ms ease-in-out;
+}
+
 /******Layout********/
 body {
   max-width: 100%;
-  background-image: url("https://cdn.glitch.global/fcea906e-4aa8-41c8-9f7c-4134abd36848/9.jpg?v=1661822970930");
+  background-image: url("https://cdn.glitch.global/fcea906e-4aa8-41c8-9f7c-4134abd36848/1-1.jpg?v=1661900331863");
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -67,37 +79,39 @@ main {
 }
 article {
   width: 80%;
-  color: indigo;
+  color: white;
   border-radius: 25px;
   box-shadow: inset 5px 5px 40px silver;
-  margin:auto;
-  display:flex;
+  margin: auto;
+  display: flex;
 }
 aside {
   width: 20%;
   display: block;
+  margin:auto;
+  text-align:center;
+  
+}
+aside p{
+  text-align:center;
 }
 aside ul {
   display: block;
   margin: 1em;
-  border: 3px solid silver;
+  border: 5px solid gold;
   border-radius: 25px;
   background-image: url("https://cdn.glitch.global/fcea906e-4aa8-41c8-9f7c-4134abd36848/6.jpg?v=1661842414567");
 }
 aside ul li {
   background: rgb(70, 0, 130, 0.5);
-  border: 1px solid silver;
+  border: 1px solid gold;
   padding: 1em;
   backdrop-filter: blur(12px);
 }
 aside ul li a {
-  color: white;
   font-size: 1em;
 }
-aside ul li a:hover {
-  color: yellow;
-  text-decoration: underline;
-}
+
 footer {
   margin: 2em;
   display: block;
@@ -105,6 +119,13 @@ footer {
 /*********Structural Elements************/
 nav {
   display: flex;
+  margin:auto;
+  flexbox
+  width:100%;
+}
+nav li{
+  flex-grow:1;
+  flex-shrink:1;
 }
 ul {
   padding: 1em;
@@ -112,7 +133,7 @@ ul {
   width: 100%;
   display: flex;
 }
-li {
+nav ul li {
   list-style: none;
   padding: 0.7em;
   text-align: center;
@@ -120,7 +141,6 @@ li {
 }
 li a:hover {
   color: yellow;
-  text-decoration: underline;
 }
 div {
   border-radius: 25px;
@@ -132,6 +152,10 @@ img {
   border-radius: 25px;
   max-width: 75%;
   margin: auto;
+}
+img:hover{
+    transform: scale(1.4);
+  transition: transform 150ms ease-in-out;
 }
 footer ul {
   display: block;
@@ -146,9 +170,8 @@ footer ul li a {
   font-size: 1em;
   margin: auto;
   padding: 0px;
-  color:white;
+  color: white;
 }
-
 
 /********Selectors and Classes ***********/
 #wrapper {
@@ -161,9 +184,8 @@ footer ul li a {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  padding: 1em;
-  color: indigo;
-  border: 3px solid silver;
+  padding: 1.5em;
+  color: white;
   box-shadow: inset 5px 5px 40px silver;
 }
 #aboutMe {
@@ -171,7 +193,7 @@ footer ul li a {
   flex-wrap: wrap;
   max-width: 90%;
   color: silver;
-  box-shadow: inset 5px 5px 40px white;
+  box-shadow: inset 5px 5px 40px orchid;
   color: white;
   background: linear-gradient(-45deg, blue -30%, transparent 80%),
     linear-gradient(45deg, darkred 20%, crimson, darkorange 60%, gold, bisque);
@@ -187,7 +209,7 @@ footer ul li a {
   padding: 1em;
   display: flex;
   border-radius: 25px;
-  border: 3px solid indigo;
+  border: 3px solid gold;
   box-shadow: inset 8px 8px 15px cyan, inset -8px -8px 15px magenta;
 }
 #cyanotype {
@@ -210,10 +232,15 @@ footer ul li a {
 }
 #footerNav {
   color: silver;
-  box-shadow: inset 5px 5px 40px silver;
+  box-shadow: inset 5px 5px 40px orchid;
   margin: auto;
   padding: 1em;
   backdrop-filter: blur(12px);
   background: linear-gradient(-45deg, blue -30%, transparent 80%),
     linear-gradient(45deg, darkred 20%, crimson, darkorange 60%, gold, bisque);
+}
+#navTop{
+  display:flex;
+  margin:auto;
+  width:100%;
 }
